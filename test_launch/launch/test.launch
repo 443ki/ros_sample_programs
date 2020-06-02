@@ -1,0 +1,4 @@
+<launch>
+	<node name="launch_pub_node" pkg="launch_pub" type="launch_pub_node" output="screen"/>
+	<node name="launch_sub_node" pkg="launch_sub" type="launch_sub_node" output="screen"/>
+</launch>
